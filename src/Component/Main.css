@@ -1,0 +1,147 @@
+/* body {
+ background-color: black; 
+  
+} */
+.backgroud{
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://ik.imagekit.io/tvlk/blog/2018/08/%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B8%A905-800x534.jpg?tr=dpr-2,w-675);
+    letter-spacing: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+  }
+  
+  .container {
+    position: relative;
+    width: auto;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 10px;
+  }
+  .container#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+  }
+  .container .content {
+    position: relative;
+  }
+  
+  h1 {
+    font: 60px Arial, sans-serif;
+    margin-right: 0%;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    margin-top: 20px;
+  }
+  h2.ex1 {
+    text-align: right;
+    margin-right: 0%;
+    font-family: "Kanit", sans-serif;
+    color: orange;
+    text-decoration: overline;
+    font-size: 40px;
+    margin-top: -30px;
+  }
+  .ex5 {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    margin-right: 30%;
+  }
+  .ex4 {
+    text-align: center;
+    margin-top: -50px;
+  }
+  p.ex2 {
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+  }
+  .forul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .forul2 {
+    text-align: center;
+    list-style: none;
+    padding: 6px 15px;
+    margin-right: 10px;
+  }
+  h2.ex3 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 30px;
+  }
+  #ico1 {
+    width: 10%;
+    height: 10%;
+    margin-left: 13%;
+    background: transparent;
+  }
+  header ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-style: groove;
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-family: "Kanit", sans-serif;
+    background: transparent;
+  }
+  
+  header ul li a:hover,
+  header ul li a.active {
+    background: #fff;
+    color: greenyellow;
+  }
+  
+  a {
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    background: transparent;
+    border-style: groove;
+  }
+  @media (orientation: landscape) and (max-width: 500px) {
+    .container {
+      font-size: 10px;
+      margin: 0 auto;
+    }
+    .ex5 {
+      font-size: 5px;
+      text-align: left;
+    }
+    .ex4 {
+      font-size: 5px;
+      text-align: left;
+    }
+  }
+  
+  .abatacum{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-style: groove;
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-family: "Kanit", sans-serif;
+    background: transparent;
+  }
+  

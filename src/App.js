@@ -1,15 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter,  Routes,Route } from 'react-router-dom'
+import Main from './Component/Main';
+import AllCost from './Component/AllCost/AllCost';
+import AddMenu from './Component/Addmenu/AddMenu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Choo Choo! This is an example of a create-react-app site running on Railway.</p>
-        <a className="App-link" href="https://react.dev/learn" target="_blank" rel="noreferrer noopener">Learn React</a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+    <Routes>
+      <Route path='' element={ <Main></Main>}></Route>
+      <Route path='addmenu' element={ <AddMenu></AddMenu>}></Route>
+      <Route path='Allcost' element={ <AllCost></AllCost>}></Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 
