@@ -22,6 +22,7 @@ const ShowMenu = () => {
 
   return (
     <>
+    <div className="back">
     <header>
       <div className="Appbar">
         <h1 className="Font-color">เมนูทั้งหมด</h1>
@@ -50,6 +51,7 @@ const ShowMenu = () => {
               </div>
             ))
           : null}
+      </div>
       </div>
     </>
   );
