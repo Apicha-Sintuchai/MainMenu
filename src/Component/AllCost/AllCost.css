@@ -1,25 +1,49 @@
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
-  input[type=file] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #a7f3d0 ;
+}
+input[type="file"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input::placeholder{
+ font-size: 20px;
+}
 
-  button {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+button {
+  background-color: #16a34a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bgg h4{
+  color: #22c55e;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-family: 'Tangerine', serif;
+}
+.bgg{
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 200%;
+  height: 100%;
+  background-color: #86efac;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
