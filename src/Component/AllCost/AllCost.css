@@ -14,6 +14,7 @@ input[type="file"] {
 }
 input::placeholder{
  font-size: 20px;
+ color: #0284c7;
 }
 
 button {
@@ -29,7 +30,7 @@ button {
   cursor: pointer;
 }
 .bgg h4{
-  color: #22c55e;
+  color: #0284c7;
   font-size: 30px;
   padding-left: 20px;
   padding-top: 5px;
@@ -41,7 +42,7 @@ button {
   position: fixed;
   width: 200%;
   height: 100%;
-  background-color: #86efac;
+  background-color: #a7f3d0;
 }
 body {
   margin: 0;
